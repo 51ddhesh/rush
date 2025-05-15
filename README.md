@@ -25,6 +25,7 @@ git clone https://github.com/51ddhesh/rush.git
 ```
 3. Build the project:
 ```bash
+cd rush/
 cargo build --release
 ```
 4. Run the shell:
