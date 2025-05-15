@@ -51,7 +51,8 @@ sleep 10 &
 
 ## Dependencies
 
-- libc = "0.2" - For Unix system calls and signal handling
+- <code>rustc >= 1.85.0</code>
+- <code>libc = 0.2</code> - For Unix system calls and signal handling
 
 ## License
 

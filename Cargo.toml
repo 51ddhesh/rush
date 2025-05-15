@@ -2,6 +2,8 @@
 name = "rush"
 version = "0.1.0"
 edition = "2024"
+rust-version = "1.85.0"
+authors = ["51ddhesh"]
 
 [dependencies]
 libc = "0.2"
