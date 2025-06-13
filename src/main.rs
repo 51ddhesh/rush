@@ -56,6 +56,7 @@ fn main() {
 
 /// Executes a command with the given tokens and background flag
 /// Returns true if the command executed successfully, false otherwise
+#[allow(unused_unsafe)]
 fn execute_command(tokens: Vec<&str>, is_background: bool) -> bool {
     if tokens.is_empty() {
         colors::error_logger("No command entered".to_string());
